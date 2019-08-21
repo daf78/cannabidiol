@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/7ed90fc977.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>cannabidiol</title>
+</head>
+
+<body id="home">
+
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <div class="container">
+            <img src="img/logo.png" alt="cannabidiol logo" class="logo">
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>Cannabidiol</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque doloribus, cumque ipsa iure
+                    atque pariatur dicta ab nisi necessitatibus.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <img src="img/showcase.jpeg" alt="cannabidiol showcase picture">
+        </div>
+    </section>
+
+    <!-- Overlay text -->
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Hemp!</h3>
+                <h2>For your health's sake!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt suscipit quibusdam facilis
+                    architecto, impedit dolor ullam cupiditate vitae harum corporis.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-c">
+        <div class="gallery">
+            <a href="img/showcase3.png" class="big"><img src="img/showcase3.png" alt="showcase picture 3"></a>
+            <a href="img/showcase7.jpeg" class="big"><img src="img/showcase7.jpeg" alt="showcase picture 7"></a>
+            <a href="img/showcase2.jpg" class="big"><img src="img/showcase2.jpg" alt="showcase picture 2"></a>
+            <a href="img/showcase4.jpeg" class="big"><img src="img/showcase4.jpeg" alt="showcase picture 4"></a>
+            <a href="img/showcase1.jpg" class="big"><img src="img/showcase1.jpg" alt="showcase picture 1"></a>
+            <a href="img/showcase6.jpeg" class="big"><img src="img/showcase6.jpeg" alt="showcase picture 6"></a>
+            <a href="img/showcase8.jpeg" class="big"><img src="img/showcase8.jpeg" alt="showcase picture 8"></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+        <div class="container">
+            <div>
+                <h2>Follow Us</h2>
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fab fa-twitter fa2x"></i>
+                </a>
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook fa2x"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank">
+                    <i class="fab fa-youtube fa2x"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <i class="fab fa-linkedin fa2x"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <i class="fab fa-instagram fa2x"></i>
+                </a>
+            </div>
+            <div>
+                <h3>Company Info</h3>
+                <ul>
+                    <li><a href="#">All Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Blog Posts</h3>
+                <ul>
+                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Subscribe</h>
+                    <form name="email-form" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+                        <div class="email-form">
+                            <span class="form-control-wrap">
+                                <input type="email" name="email" id="email" size="40" class="form-control"
+                                    placeholder="Email" />
+                            </span>
+                            <div data-netlify-recaptcha="true"></div>
+                            <button type="submit" class="form-control submit">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(
+            function () {
+                const $gallery = $('.gallery a').simpleLightbox();
+            }
+        )
+    </script>
+</body>
+
+</html>
